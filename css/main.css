@@ -1,0 +1,323 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Muli', sans-serif;
+	color: #333333;
+}
+
+#about #work #contact {
+	height: 600px;
+}
+
+h1 {
+	font-family: 'Philosopher', sans-serif;
+}
+
+h2 {
+	font-family: 'Quattrocentro', serif;
+}
+
+h3 {
+	font-family: 'Muli', sans-serif;
+}
+
+
+/***** GRID *****/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+}
+
+/***** HEADER *****/
+header h1 {
+	font-size: 115px;
+	line-height: 85px;
+	letter-spacing: 5px;
+	padding:90px 0 0 40px;
+	text-align: center;
+	color: #404040;
+}
+
+.page-one {
+	height: 600px;
+	margin: 0 auto;
+}
+
+.header-img {
+	background-image: url("../img/puzzle-piece-c.png");
+	background-size: cover;
+}
+
+.main-nav ul {
+	list-style-type: none;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	box-sizing: border-box;
+	background-color: #009900;
+	margin-left: 35px;
+}
+
+.main-nav li {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+	line-height: 100px;
+	color: white;
+	padding-right: 20px;
+	width: auto;
+	text-align: center;
+	flex-grow: 1;
+	transition: .5s;
+}
+
+.main-nav a {
+	color: #f2f3f6;
+}
+
+.main-nav li a:hover {
+	background-color: #666666;
+    flex-grow: 3;
+    max-width: 100%;
+    font-size: 1.5em;
+}
+
+
+
+/***** ABOUT *****/
+#about {
+	background-color: rgba(255, 112, 77, 0.3);
+	margin: 0 auto;
+	border-top: 15px solid #4d4d4d;
+	height: 600px;
+	}
+
+#about h2 {
+	font-size: 50px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+#about p {
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+#about img {
+	margin-top: 65px;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    border: 5px solid #696969;
+}
+
+/***** WORK *****/
+
+#work {
+	margin: 0 auto;
+	height: 600px;
+	border-top: 15px solid #4d4d4d;
+	padding-bottom: 20px;
+}
+
+#work h2 {
+	font-size: 50px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.work-border {
+	border: 2px solid rgba(255, 112, 77, 0.5);
+}
+
+.work-content {
+	width: 370px;
+	height: 360px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#rogue-img {
+	padding-top: 24px;
+}
+
+
+
+/***** FOOTER *****/
+#contact {
+	clear: both;
+	margin: 0 auto;
+	width: 1200px;
+	height: 570px;
+	background-color: rgba(179, 154, 134, 0.50);
+}
+
+
+#contact h2 {
+	font-size: 30px;
+	font-family: 'Muli', sans-serif;
+	color: #009900;
+	text-transform: capitalize;
+	padding-top: 50px;
+	padding-left: 150px;
+}
+
+#email-img {
+	padding-left: 210px;
+}
+
+#email-address {
+	font-size: 18px;
+	font-weight: bold;
+    padding-left: 100px;
+}
+
+#email-address h3 {
+	color: black;
+}
+
+.follow-me h2 {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+#linked-in-icon {
+	padding-bottom: 50px;
+	padding-left: 150px;
+	display: inline-block;
+}
+
+#github-icon {
+	padding-bottom: 50px;
+	padding-left: 50px;
+	display: inline-block;
+}
+
+#laptop-photo {
+	padding-top: 20px;
+}
+
+/***** PAGE 2 MORE *****/
+
+.more-nav {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Philosopher', sans-serif;
+	margin: 0 auto;
+	height: 80px;
+	background-color: #e6e6e6;
+	border-bottom: 3px solid #4d4d4d;
+	border-top: 3px solid #4d4d4d;
+}
+
+.more-title {
+	font-size: 45px;
+	margin-top: 20px;
+	margin-right: 200px;
+}
+
+.more-home-link {
+	margin-top: 20px;
+	margin-right: 20px;
+	padding-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4d4d4d;
+}
+
+.more-nav li a {
+	color: #333333;
+	background-color: #f2f2f2;
+	padding: 12px;
+	border: 2px solid #4d4d4d;
+	border-radius: 0px;
+}
+
+.more-home-link a:hover {
+	background-color: #009900;
+	opacity: 25%;
+}
+
+.page-more {
+	background-color: rgba(255, 112, 77, 0.3);
+}
+
+.grid {
+	display: grid;
+	grid-template-rows: 30% 30% 30%;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 5px;
+	padding-top: 20px;
+}
+
+.grid .p1 {
+	grid-row-start: 1;
+	grid-column-start: 2;
+	padding-right: 85px;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.grid .p2 {
+	grid-row-start: 2;
+	grid-column-start: 2;
+	padding-right: 85px;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.grid .p3 {
+	grid-row-start: 3;
+	grid-column-start: 2;
+	padding-right: 85px;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.grid .diving-aruba {
+	grid-column-start: 1;
+	grid-row-start: 1;
+	margin-left: 15px;
+	border: 4px solid #f2f2f2;
+}
+
+.grid .diving-saba {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	margin-left: 15px;
+	border: 4px solid #f2f2f2;
+}
+
+.grid .flying {
+	grid-column-start: 1;
+	grid-row-start: 3;
+	margin-left: 15px;
+	border: 4px solid #f2f2f2;
+}
+
+
+
+
+
